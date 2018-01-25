@@ -8,7 +8,7 @@ I am a first year graduate student studying Software Engineering at Rochester In
 ### Interests
 Self-Adaptive/Autonomous Systems <br />
 Security <br />
-Cloud Computing
+Cloud Computing  
 
 ## Current Projects
 Below is a list of current projects I am currently working on. Previous projects I have completed can be found in the "Projects" directory this GitHub repository, each including a README describing the project.
@@ -25,3 +25,7 @@ Web Development Intern - COSO MEDIA, June 2017-July 2017 <br />
 Data Analytics Intern - Regional Transit Service, September 2016-December 2016 <br />
 Tutor - St. John Fisher College, January 2015-December 2015 <br />
 Outside Operations Manager - Normanside CC, November 2011-May 2017 <br />
+
+### Relevant Technical Experience
+Programming Languages: Java, PHP, JavaScript, SQL, HTML5, R 
+Development Tools: IntelliJ IDEA, StarUML, GitHub, Android Studio, RStudio

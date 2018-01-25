@@ -7,7 +7,9 @@ I am a first year graduate student studying Software Engineering at Rochester In
 
 ### Interests
 Self-Adaptive/Autonomous Systems
+
 Security
+
 Cloud Computing
 
 ## Current Projects
@@ -21,7 +23,11 @@ A paper to be pubished in SEAMS 2018.
 
 ## Employment Experience
 Graduate Research Assistant - Rochester Institute of Technology, January 2018-Present
+
 Web Development Intern - COSO MEDIA, June 2017-July 2017
+
 Data Analytics Intern - Regional Transit Service, September 2016-December 2016
+
 Tutor - St. John Fisher College, January 2015-December 2015
+
 Outside Operations Manager - Normanside CC, November 2011-May 2017

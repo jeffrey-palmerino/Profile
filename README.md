@@ -27,5 +27,5 @@ A paper to be pubished in SEAMS 2018.
 **Outside Operations Manager** - Normanside CC, November 2011-May 2017 <br />
 
 ### Relevant Technical Experience
-Programming Languages: Java, PHP, JavaScript, SQL, HTML5, R <br />
-Development Tools: IntelliJ IDEA, StarUML, GitHub, Android Studio, RStudio
+**Programming Languages:** Java, PHP, JavaScript, SQL, HTML5, R <br />
+**Development Tools:** IntelliJ IDEA, StarUML, GitHub, Android Studio, RStudio

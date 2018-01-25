@@ -1,6 +1,5 @@
 # Jeffrey Palmerino 
-jrp3143@rit.edu
-
+jrp3143@rit.edu <br />
 (518) - 928 - 9413
 
 ## About Me

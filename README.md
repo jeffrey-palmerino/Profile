@@ -13,10 +13,10 @@ Cloud Computing
 ## Current Projects
 Below is a list of current projects I am currently working on. Previous projects I have completed can be found in the "Projects" directory this GitHub repository, each including a README describing the project.
 
-### "Reducing Tactic Latency Uncertainty in Self-Adaptive Systems"
+### *"Reducing Tactic Latency Uncertainty in Self-Adaptive Systems"*
 A paper to be published in MobileSoft 2018
 
-### "Investigating User's Perception and Comprehension of Android Permission Models"
+### *"Investigating User's Perception and Comprehension of Android Permission Models"*
 A paper to be pubished in SEAMS 2018. 
 
 ## Employment Experience

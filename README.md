@@ -11,7 +11,7 @@ Security <br />
 Cloud Computing  
 
 ## Current Projects
-Below is a list of current projects I am currently working on. Previous projects I have completed can be found in the "Projects" directory this GitHub repository, each including a README describing the project.
+Below is a list of current projects I am currently working on. Previous projects I have completed can be found in the "Projects" directory of this GitHub repository, each including a README describing the project.
 
 ### *"Reducing Tactic Latency Uncertainty in Self-Adaptive Systems"*
 A paper to be published in MobileSoft 2018

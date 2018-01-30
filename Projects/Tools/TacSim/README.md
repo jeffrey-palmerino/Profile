@@ -1,4 +1,4 @@
-# *TacSwim*
+# *TacSim*
 TacSim simulates a cloud-based hosting structure containing multiple adaption processes with varying latency distributions. This tool implements the MAPE-K control loop for all self-adaptation decisions, with the option to embedd multiple utility equations in the "Plan" phase of the loop.  
 
 ### Technology

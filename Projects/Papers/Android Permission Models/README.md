@@ -1,0 +1,7 @@
+# *"Invesigating Users Perception and Comprehension of Android Permission Models"*
+A paper submitted to MobileSoft 2018; Published: TBD
+
+## Abstract
+Do you know the permissions your favorite apps use? You probably don't, and you aren't alone. Everyone seemingly talks about how important app security and privacy is to them, but research has shown that users are generally not well informed about the permissions their apps use. This leads to serious ramifications for security, privacy and user perception (rating) of an app. Understanding the current Android permission model and how it can be improved offers significant benefits for both developers and users.
+
+To better understand user perception of the previous, current and a new proposed permission model, we conducted an in person study involving 185 participants. Our primary findings include I) The current Android runtime model does not make users feel more secure in comparison with the older install-time model. II) Our proposed model is beneficial in helping users feel more secure. III) There is no statistically significant difference between the user ratings given to the apps using the different permissions models. IV) Runtime permission models are significantly beneficial in helping users to recall the requested permissions. V) We found that users were generally well informed about what the requested permissions meant, but age played a significant factor in reducing how informed users were.

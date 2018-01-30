@@ -10,14 +10,10 @@ Self-Adaptive/Autonomous Systems <br />
 Security <br />
 Cloud Computing  
 
-## Current Projects
-Below is a list of current projects I am currently working on. Previous projects I have completed can be found in the "Projects" directory of this GitHub repository, each including a README describing the project.
+## Current Projects  
 
-### *"Reducing Tactic Latency Uncertainty in Self-Adaptive Systems"*
-A paper to be published in MobileSoft 2018
-
-### *"Investigating User's Perception and Comprehension of Android Permission Models"*
-A paper to be pubished in SEAMS 2018. 
+### *TacSim*
+A closed-source, simulation tool that written in Java that simulates self-adaptive systems, and the adaptation decisions accosciated with them. 
 
 ## Employment Experience
 **Graduate Research Assistant** - Rochester Institute of Technology, January 2018-Present <br />

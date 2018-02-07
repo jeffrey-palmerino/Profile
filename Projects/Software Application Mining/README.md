@@ -46,7 +46,4 @@ Jeff Palmerino
 
 Hiten Gupta
 
-Licelot Marmolejos
-
-Sayantika	Bhattacharya
 

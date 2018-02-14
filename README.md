@@ -13,7 +13,7 @@ Defense and Security <br />
 ## Current Projects  
 
 ### *TacSim*
-A closed-source, simulation tool that written in Java 8 that simulates a self-adaptive cloud-based hosting structure, and the adaptation decisions accosciated with it. 
+A closed-source, simulation tool written in Java 8 that simulates a self-adaptive cloud-based hosting structure, and the adaptation decisions accosciated with it. 
 
 ## Employment Experience
 **Graduate Research Assistant** - Rochester Institute of Technology, January 2018-Present <br />

@@ -7,8 +7,8 @@ I am a first year graduate student, and research assistant, studying Software En
 
 ### Interests
 Self-Adaptive/Autonomous Systems <br />
-Security <br />
-Cloud Computing  
+Defense and Security <br />
+  
 
 ## Current Projects  
 

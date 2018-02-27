@@ -1,5 +1,5 @@
 # *"Invesigating Users Perception and Comprehension of Android Permission Models"*
-A paper submitted to MobileSoft 2018; Published: TBD
+A paper submitted to, and to be published in MOBILESoft 2018
 
 ## Abstract
 Do you know the permissions your favorite apps use? You probably don't, and you aren't alone. Everyone seemingly talks about how important app security and privacy is to them, but research has shown that users are generally not well informed about the permissions their apps use. This leads to serious ramifications for security, privacy and user perception (rating) of an app. Understanding the current Android permission model and how it can be improved offers significant benefits for both developers and users.

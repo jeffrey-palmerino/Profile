@@ -3,13 +3,14 @@ jrp3143@rit.edu <br />
 (518) - 928 - 9413
 
 ## About Me
-I am a first year graduate student, and research assistant, studying Software Engineering at Rochester Institute of Technology. My undegraduate studies were conducted at St. John Fisher College of Rochester, New York, where I majored in Statistics while minoring in Computer Science and Economics. Throughout my undergraduate education, I was also a two-sport athlete and part of a mentoring club that brought together the youth of Rochester, New York and the student-athletes of the college. 
+I am a first year graduate student, and research assistant, studying Software Engineering at Rochester Institute of Technology. My undegraduate studies were conducted at St. John Fisher College of Rochester, New York, where I majored in Statistics while minoring in Computer Science and Economics. Throughout my undergraduate education, I was also a two-sport athlete and part of a mentoring club that brought together the youth of Rochester, New York and the student-athletes of the college. <br />
+
+This upcoming summer I will be working for Harris Corporation in their Space and Intelligence Systems department as a Software Engineer intern. 
 
 ### Interests
 Self-Adaptive/Autonomous Systems <br />
 Defense and Security <br />
   
-
 ## Current Projects  
 
 ### *TacSim*

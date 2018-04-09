@@ -18,7 +18,7 @@ A closed-source, simulation tool written in Java 8 that simulates a self-adaptiv
 
 ## Employment Experience
 **Graduate Research Assistant** - Rochester Institute of Technology, January 2018-Present <br />
-**Web Development Intern** - COSO MEDIA, June 2017-July 2017 <br />
+**Web Development Intern** - COSO Media, June 2017-July 2017 <br />
 **Data Analytics Intern** - Regional Transit Service, September 2016-December 2016 <br />
 **Tutor** - St. John Fisher College, January 2015-December 2015 <br />
 **Outside Operations Manager** - Normanside CC, November 2011-May 2017 <br />

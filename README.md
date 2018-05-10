@@ -13,7 +13,7 @@ Defense and Security <br />
   
 ## Current Projects  
 
-### *TacSim*
+### *IS3*
 A closed-source, simulation tool written in Java 8 that simulates a self-adaptive system and the adaptation decisions accosciated with it. 
 
 ## Employment Experience

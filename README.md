@@ -10,12 +10,13 @@ Self-Adaptive/Autonomous Systems <br />
 Defense and Security <br />
   
 ## Current Projects  
+I am currently building a prototype of a self-driving car's architecture. I am implementing fault detection/recovery techniques like Heartbeat and voting schemes.
 
 ### *IS3*
 A closed-source, simulation tool written in Java 8 that simulates a self-adaptive system and the adaptation decisions accosciated with it. 
 
 ## Employment Experience
-**Software Engineering Intern** - Harris Corporation, June 2018-August 2018
+**Software Engineering Intern** - Harris Corporation, June 2018-August 2018 <br />
 **Graduate Research Assistant** - Rochester Institute of Technology, January 2018-Present <br />
 **Web Development Intern** - COSO Media, June 2017-July 2017 <br />
 **Data Analytics Intern** - Regional Transit Service, September 2016-December 2016 <br />

@@ -1,0 +1,156 @@
+<h1>Home Page</h1>
+<h2>Welcome, {{user}}!</h2>
+<h3>Your role is {{role}}.</h3>
+
+<span id="admin"> </span>
+
+Do you want to logout? Go <a href="/logout">here</a>.<br />
+
+Otherwise, here is some fun functionality for you just in case you're bored!
+
+<a id="startGame" href="#" onclick="openGame()"> Start Game</a><br /><br />
+
+<div id="game-div" style="display: none">
+	You have <span id="guessesLeft">5</span> tries to guess a number between 1 and 20.<br />
+	Guess Number: <input type="number" id="guess"> </input><input type="submit" onclick="startGuessing()"></input><br />
+	<p id="hint"> </p>
+</div>
+
+<div id="congrats" style="display: none; color: red; font-size: 36px">
+	Congratulations! You won! If you would like to play again, just click start game again.
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script>
+	// TEST CODE - REMOVE THIS WHEN WORKING
+	$('h3').click(function() {
+		endSession();
+	});
+	// END TEST
+
+	var randomNumber = 0;
+	var defaultGuesses = 5;
+
+	var validNavigation = 0;
+	console.log(validNavigation);
+	
+	async function endSession() {
+	   var result = await $.ajax({
+		    type: 'post',
+		    url: '/destroy',
+		    success: function (data) {
+		    	alert("destroyed");
+		    }
+		});
+	}
+
+	$("#guess").on("keyup", function(event){
+		if(event.keyCode == 13){
+			startGuessing();
+		}
+	});
+
+	function changeBackgroundColor(color){
+		if(color == "blue"){
+			document.body.style.backgroundColor = "#91bae3";
+		}else if(color == "green"){
+			document.body.style.backgroundColor = "#82d17c";
+		}else{
+			document.body.style.backgroundColor = "white";
+		}
+	}
+
+	function openGame(){
+		if($('#congrats').css('display') == 'block'){
+			document.getElementById('congrats').style.display = "none";
+		}
+		
+		$("#guess").val("");
+		$("#hint").text("");
+		$("#guessesLeft").text(defaultGuesses);
+
+		randomNumber = Math.floor((Math.random() * 20) + 1);
+		document.getElementById("game-div").style.display = "block";
+	}
+
+	function startGuessing(){
+		var guess = $("#guess").val();
+
+		var guessesLeft = parseInt($("#guessesLeft").text());
+		$("#guessesLeft").text(guessesLeft - 1);
+
+		if(guess == randomNumber){
+			document.getElementById('congrats').style.display = "block";
+			$("#hint").text("");
+		}else if(guess > randomNumber){
+			$("#hint").text("Your guess was too high!");
+		}else{
+			$("#hint").text("Your guess was too low!");
+		}
+
+		if(guessesLeft - 1 == 0){
+			$("#hint").text("So sorry, but you have run out of guesses, the game is over! The number to guess was " + randomNumber + 
+			". If you would like to play again, just hit start game.");
+
+			return;
+		}
+	}
+
+	function hover(element){
+		element.style.color = "red";
+		element.style.cursor = "pointer";
+	}
+	function hoverOff(element){
+		element.style.color = "black";
+		element.style.cursor = "default";
+	}
+	 
+	function bindDOMEvents() {
+	// unload works on both closing tab and on refreshing tab.
+	window.onbeforeunload = function() {
+		alert(validNavigation);
+	   if (validNavigation==0) {
+	     endSession();
+	   }
+	};
+	 
+	// Attach the event keypress to exclude the F5 refresh
+	$(document).keydown(function(e) {
+	   var key=e.which || e.keyCode;
+	   if (key == 116) {
+	     validNavigation = 1;
+	   }
+	});
+	 
+	// Attach the event click for all links in the page
+	$("a").bind("click", function() {
+	   validNavigation = 1;
+	});
+	 
+	 // Attach the event submit for all forms in the page
+	 $("form").bind("submit", function() {
+	   validNavigation = 1;
+	});
+	 
+	 // Attach the event click for all inputs in the page
+	 $("input[type=submit]").bind("click", function() {
+	   validNavigation = 1;
+	});
+	 
+	}
+	 
+	// Wire up the events as soon as the DOM tree is ready
+	$(document).ready(function() {
+		bindDOMEvents(); 
+
+	    if('{{role}}' === "Admin"){
+			menu = "Since you are admin, you get to change the background of this page to one of the following colors: " +
+					"<ol id='color-list' style='text-align: center; list-style-position: inside'>" +
+						"<li onmouseover=hover(this) onmouseout=hoverOff(this) onclick=changeBackgroundColor('blue')> Blue-ish </li>" +
+						"<li onmouseover=hover(this) onmouseout=hoverOff(this) onclick=changeBackgroundColor('green')> Green-ish </li>" +
+						"<li onmouseover=hover(this) onmouseout=hoverOff(this) onclick=changeBackgroundColor()> Default (Definitely White) </li>" +
+					"</ol>";
+			$('#admin').append(menu)
+		}
+	});
+</script>

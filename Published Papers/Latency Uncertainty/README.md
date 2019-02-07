@@ -1,7 +1,0 @@
-# *"Reducing Uncertainty in the Decision-Making Process for Self-Adaptive Systems by Accounting for Tactic Volatility"*
-A paper submitted to ASE 2018; Published: TBD
-
-## Abstract
-Self-adaptive systems frequently use *tactics* to respond to changes in their surrounding environments. One example tactic is a web farm provisioning a virtual machine when workloads reach a specific threshold. Tactics enable self-adaptive systems to remain effective, resilient and secure in the face of change. However, these tactics often have volatile attributes that can affect their predictability, dependability, and produced benefit. This creates uncertainty in the decision-making process that may be highly detrimental to the self-adaptive decision-making process. Unfortunately, state of the art self-adaptive processes do not have any method of accounting for this volatility.
-
-To reduce uncertainty in the self-adaptive process, we developed a new Tactic Volatility Aware (TVA) solution. We embedded TVA into the widely used MAPE-K adaptation control loop, enabling it to be utilized in a variety of existing self-adaptive systems. To evaluate TVA, we conducted simulations using three independent tools that allowed us to emulate tactic execution environments: R, IS3, and SWIM. We found that our TVA approach can significantly increase the predictability and dependability of executing a tactic, leading to a substantial reduction in uncertainty in the decision-making process.
